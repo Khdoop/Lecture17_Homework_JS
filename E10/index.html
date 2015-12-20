@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div>
+			<form action="" onsubmit="return checkv(this)">
+				<div>
+					<label for="username">username:</label>
+					<input type="text" name="username" id="username"/>
+				</div>
+				<div id="chold">
+					<label for="country">country:</label>
+					<select name="country" id="country" onchange="addbox(this)">
+						<option value="1">Bulgaria</option>
+						<option value="2">'Murica</option>
+						<option value="3">Other</option>
+					</select>
+					<br />
+				</div>
+				<div>
+					<label for="password">password:</label>
+					<input type="password" name="password" id="password"/>
+				</div>
+				<div>
+					<button type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+	</body>
+	<script src="js/check.js"></script>
+</html>

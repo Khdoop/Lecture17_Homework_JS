@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+#container {
+	width: 650px;
+	margin: 5% auto;
+}
+
+.pic {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	overflow: visible;
+}
+
+#preview {
+	border: 5px solid black;
+}

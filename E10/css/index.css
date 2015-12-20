@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Calibri;
+}
+
+form {
+	width: 500px;
+	margin: 0 auto;
+}
+
+label {
+	display: inline-block;
+	width: 70px;
+}
+
+div {
+	margin: 5px;
+}
+
+.errors {
+	font-size: 14px;
+	font-style: italic;
+	color: red;
+}
+
+#customc {
+	margin: 6px 0 0 74px;
+}

@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Calibri;
+	font-size: 22px;
+}
+
+#container {
+	width: 600px;
+	margin: 10px auto;
+	height: 50px;
+}
+
+#container > * {
+	float: left;
+	height: 30px;
+}
+
+label {
+	margin: 0 10px;
+}
+
+input {
+	text-align: center;
+	font-size: 20px;
+}
+
+button.convert {
+	height: 18px !important;
+	float: none !important;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#reset {
+	width: 100px;
+	margin: 10px auto;
+}
+
+.reset {
+	width: 100px;
+}
